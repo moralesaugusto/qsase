@@ -1,7 +1,7 @@
 # Q SASE POC TIPs
 
-1. Mesh_natenabler.sh
-It modifies the connector to do Hi-NAT over peer mesh source IPs, in the same way as clients.
+**1. Mesh_natenabler.sh
+**It modifies the connector to do Hi-NAT over peer mesh source IPs, in the same way as clients.
 You can get the list of the networks from here:
 
 ![p81](https://github.com/moralesaugusto/qsase/assets/16660407/130fd01a-2ac4-4334-adfa-f5c33717a9e6)
@@ -38,6 +38,7 @@ Take into consideration that default behavior for Agents is base on Hide NAT, bu
 
 ---- NAH! Iptables configuration not saved permanently.
 
-2. To enable CHKP to community over QSASE network do not forget to create a rule similar to below:
-3. 
+2.** To enable CHKP to community over QSASE network do not forget to create a rule similar to below:**
+
+
    ![fw](https://github.com/moralesaugusto/qsase/assets/16660407/8f1f65c6-53b9-46ef-9b8c-4332815aee5a)
